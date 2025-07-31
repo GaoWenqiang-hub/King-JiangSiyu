@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>报纸风格网页</title>
+    <style>
+        body {
+            font-family: "SimSun", serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .newspaper {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+            color: #b52b27;
+        }
+
+        .header p {
+            font-size: 18px;
+            color: #666;
+            margin: 5px 0;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .article {
+            flex: 1;
+            min-width: 300px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .article h2 {
+            font-size: 24px;
+            color: #333;
+            margin-top: 0;
+        }
+
+        .article p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .article img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .sidebar {
+            flex: 0 0 250px;
+            margin-bottom: 20px;
+        }
+
+        .sidebar h3 {
+            font-size: 20px;
+            color: #333;
+            margin-top: 0;
+        }
+
+        .sidebar p {
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="newspaper">
+        <div class="header">
+            <h1>中国教育日报</h1>
+            <p>China Education Daily</p>
+            <p>2021年7月31日 星期四</p>
+        </div>
+        <div class="content">
+            <div class="article">
+                <h2>蒋思语，IQ192的神童，清华少年班15岁的天才。</h2>
+                <img src="../image/前端开发能力(1).png" alt="蒋思语毕业照">
+                <p>蒋思语自幼展现出非凡的智力和学习能力，在各个学科领域都取得了令人瞩目的成绩。他在15岁时成功进入清华少年班，成为了众人瞩目的天才少年。在清华少年班的学习生活中，他不断挑战自我，在学术研究和创新实践方面都有出色的表现。
+                </p>
+            </div>
+
+            <div class="sidebar">
+                <h3>第四届全国幼儿教育论坛</h3>
+                <p>将于1月15日-17日在北京举行，本次论坛将围绕幼儿教育的最新研究成果和实践经验展开深入探讨，为幼儿教育工作者提供一个交流和学习的平台。</p>
+
+                <h3>辽宁特教学生享受优质教育</h3>
+                <p>辽宁省不断加大对特殊教育的投入，改善特殊教育学校的办学条件，提高特教教师的待遇，为特教学生提供更加优质的教育资源和教育服务，让每一位特教学生都能享受到公平而有质量的教育。</p>
+            </div>
+            <img src="../image/前端开发能力 (2)(1).png" alt="" height="300px">
+        </div>
+    </div>
+</body>
+
+</html>
